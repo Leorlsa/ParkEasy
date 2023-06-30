@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParkEasy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- Modal do tutorial -->
+
+  <header>
+    <h1>ParkEasy</h1>
+  </header>
+  <main>
+    <section id="reserva">
+      <h2>Inserir Vagas</h2>
+      <form>
+        <label for="nome">Nome do Cliente:</label>
+        <input type="text" id="nome" required>
+
+        <label for="carro">Nome do Carro ou Moto:</label>
+        <input type="text" id="carro" required>
+
+        <label for="placa">Placa do Veículo:</label>
+        <input type="text" id="placa" required>
+
+        <label for="tamanho">Tipo do Veículo:</label>
+        <select id="tamanho" required>
+          <option value="moto">Moto</option>
+          <option value="carro">Carro</option>
+        </select>
+        <label for="vaga">Número da vaga:</label>
+        <input type="number" id="vaga" required>
+
+        <button id="reservarBtn">Reservar</button>
+      </form>
+      <p id="msg"></p>
+    </section>
+
+    <section id="status">
+      <div id="valoresPagosCard" class="card">
+        <h3>Valores Pagos</h3>
+        <ul id="listaValoresPagos"></ul>
+        <p id="totalValoresPagos"></p>
+        <button id="excluirValor">Limpar valor</button>
+      </div>
+      <h2>Status das Vagas</h2>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; Sistema de Estacionamento produzido por Leonardo André.</p>
+  </footer>
+
+  <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
