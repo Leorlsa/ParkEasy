@@ -8,7 +8,7 @@ O EasyPark é um sistema de gerenciamento de estacionamento que permite aos admi
 
 ## Funcionalidades
 
-- Reserva de vagas: Os usuários podem reservar uma vaga de estacionamento disponível, informando seu nome, tipo de veículo (carro ou moto) e placa do veículo.
+- Gerenciamento de vagas: Gerencie as vagas disponiveis, informando seu nome, tipo de veículo (carro ou moto) e placa do veículo.
 
 - Contagem de tempo: O sistema realiza a contagem de tempo desde o momento da reserva até o pagamento. É aplicada uma tarifa por minuto de acordo com o tipo de veículo.
 
